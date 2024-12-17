@@ -6,7 +6,7 @@ import cv2
 
 app = Flask(__name__)
 
-model = YOLO("C:\\Users\\User\\Desktop\\APP\\Basic-1st.pt")
+model = YOLO("C://Workspace//FYP//RT-SignLanguage-YOLOv8//Basic-1st.pt")
 
 
 @app.route('/')
